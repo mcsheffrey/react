@@ -53,12 +53,6 @@ nav_docs_sections:
     title: Tooling Integration
   - id: examples
     title: Examples
-- title: Cookbook
-  items:
-  - id: introduction
-    title: Introduction
-  - id: inline-styles
-    title: Inline Styles
 - title: Reference
   items:
   - id: top-level-api
@@ -73,3 +67,10 @@ nav_docs_sections:
     title: Event System
   - id: dom-differences
     title: DOM Differences
+nav_cookbook:
+- title: Cookbook
+  items:
+  - id: introduction
+    title: Introduction
+  - id: inline-styles
+    title: Inline Styles
