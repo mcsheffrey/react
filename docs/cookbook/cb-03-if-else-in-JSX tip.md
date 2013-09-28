@@ -2,13 +2,12 @@
 id: if-else-in-JSX-tip
 title: If-Else in JSX
 layout: docs
-permalink: inline-styles.html
-script: "cookbook/inline-styles.js"
+permalink: if-else-in-JSX-tip.html
 ---
 
 `if-else` statements don't work inside JSX, since JSX is really just sugar for functions:
 
-```html
+```js
 /** @jsx React.DOM */
 
 // this
@@ -21,7 +20,7 @@ Which means `<div id={if (true){ 'msg' }}>Hello World!</div>` doesn't make sense
 
 What you're searching for is ternary expression:
 
-```html
+```js
 /** @jsx React.DOM */
 
 // this
