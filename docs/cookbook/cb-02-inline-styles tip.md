@@ -2,13 +2,12 @@
 id: inline-styles-tip
 title: Inline Styles
 layout: docs
-permalink: inline-styles.html
-script: "cookbook/inline-styles.js"
+permalink: inline-styles-tip.html
 ---
 
-In React, inline styles are nto specified as a string, but as an object whose key is the camelCased version of the style name, and whose value is the style's value in string:
+In React, inline styles are not specified as a string, but as an object whose key is the camelCased version of the style name, and whose value is the style's value in string:
 
-```html
+```js
 /** @jsx React.DOM */
 
 var divStyle = {
